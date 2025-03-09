@@ -76,8 +76,8 @@
 4. プロジェクトのクローンとインストール
 
    ```bash
-   git clone https://github.com/SITCRC/crc.shonan-it.college.git
-   cd crc.shonan-it.college
+   git clone https://github.com/SITCRC/crc.shonan-it.git
+   cd crc.shonan-it
    pnpm install
    ```
 
