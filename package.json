@@ -1,0 +1,33 @@
+{
+  "name": "sitcrc-official-website",
+  "version": "1.0.0",
+  "description": "SITCRC Official Website powered by Astro",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "prepare": "husky",
+    "deploy": "pnpm build && node ./scripts/deploy.js"
+  },
+  "dependencies": {
+    "astro": "^5.4.2",
+    "@astrojs/tailwind": "^6.0.0",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/mdx": "^4.1.0",
+    "@astrojs/react": "^4.2.1",
+    "typescript": "^5.8.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "eslint": "^9.2.3",
+    "prettier": "^3.5.3",
+    "husky": "^9.1.7"
+  },
+  "type": "module"
+}
