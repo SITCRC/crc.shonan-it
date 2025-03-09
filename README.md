@@ -35,27 +35,31 @@
 
 ### 環境構築手順
 
+以下の手順に沿って環境を構築してください。初回にのみ必要な作業と、毎回行う作業を区別しています。
+
+### 初回のみ行う作業
+
 1. 必要なパッケージのインストール
 
-   - **`curl`**: URLからデータをダウンロードするためのコマンドラインツールです。pnpmのインストールに使用します。
+   - \`\`: URLからデータをダウンロードするためのコマンドラインツールです。pnpmのインストールに使用します。
 
    ```bash
    sudo apt install curl
    ```
 
-   - **`git`**: バージョン管理システムで、プロジェクトのクローンや変更履歴の管理に使用します。
+   - \`\`: バージョン管理システムで、プロジェクトのクローンや変更履歴の管理に使用します。
 
    ```bash
    sudo apt install git
    ```
 
-   - **`nodejs`**: JavaScriptの実行環境です。Astroのビルドや実行に使用します。
+   - \`\`: JavaScriptの実行環境です。Astroのビルドや実行に使用します。
 
    ```bash
    sudo apt install nodejs
    ```
 
-   - **`npm`**: Node.jsのパッケージマネージャで、`pnpm` のインストールに使用します。
+   - \`\`: Node.jsのパッケージマネージャで、`pnpm` のインストールに使用します。
 
    ```bash
    sudo apt install npm
@@ -75,9 +79,19 @@
 
 4. プロジェクトのクローンとインストール
 
+```bash
+git clone https://github.com/SITCRC/crc.shonan-it.git
+cd crc.shonan-it.college
+pnpm install
+```
+
+---
+
+### 毎回行う作業
+
    ```bash
    git clone https://github.com/SITCRC/crc.shonan-it.git
-   cd crc.shonan-it
+   cd crc.shonan-it.college
    pnpm install
    ```
 
@@ -211,7 +225,7 @@ const message = 'ようこそ、SITCRCへ！';
 
 ### パート解説
 
-1. **`---`**\*\* (フロントマター)\*\*
+1. \`\`\*\* (フロントマター)\*\*
 
    - 上部の3本線 `---` で囲まれた部分にJavaScript/TypeScriptのコードを記述します。変数定義やデータの取得などに使用します。
 
