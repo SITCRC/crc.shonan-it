@@ -30,4 +30,8 @@
     "husky": "^9.1.7"
   },
   "type": "module"
+
+  /*
+DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AQSTgQGTfHZmtXo7Bz5MxLVro2XMJCgqB4oIrHs8QaYD3Ko_cq_SwbipXffjiqbvqkeICg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+  */
 }
